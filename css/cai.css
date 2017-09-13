@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	background: #454545;
 	line-height: 1.7;
@@ -18,15 +21,14 @@ a{
 }
 .sider-bar .nav a,
 .sider-bar .tag-list a{
-	text-align: center;
 	display: block;
-	padding: 10px;
-	color: #888;
+	padding: 5px;
+	color: #fff;
 	transition: color 600ms;
 }
 .sider-bar .nav a:hover,
 .sider-bar .tag-list a:hover{
-	color: #222;
+	color: #111;
 }
 .sider-bar .nav a{
 	font-weight: 900;
@@ -37,13 +39,10 @@ a{
 	display: inline-block;
 	font-size: 24px;
 	font-weight: 700;
-	padding: 30px 10px;
+	padding: 20px 10px;
 	margin-bottom: 10px;
 	margin: 10px;
 	
-}
-.header .intro{
-	text-align: center;
 }
 .major{
 	float: right;
@@ -55,6 +54,7 @@ a{
 	background: #FFFFFF;
 	color: black;
 	width: 60%;
+	box-shadow: 0 0 2px  black ;
 	
 }
 .article-list .item .title, .article .title{
@@ -75,4 +75,10 @@ a{
 }
 .article-list >*, .article >*{
 	margin: 10px 0;
+}
+#menu-check,#menu-toggle{
+	display: none;
+}
+#menu-checkout,#label1{
+	display: none;
 }

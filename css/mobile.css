@@ -1,0 +1,38 @@
+.sider-bar{
+	position: relative;
+	width: 100%;
+	float: none;
+}
+.major{
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.article-list,.article{
+	width: 100%;
+	
+}
+.sider-bar .nav ,
+.sider-bar .tag-list {
+	text-align: center;
+	display: none;
+}
+#menu-checkout:checked ~ .nav,
+#menu-checkout:checked ~ .tag-list{
+	display: block;
+}
+#menu-checkout{
+	display: none;
+}
+#label1{
+	display: block;
+	font-size: 20px;
+	float: right;
+	color: hotpink;
+}
+#label1:hover{
+	color: #FFFFFF;
+}
+#label1:active{
+	color: cadetblue;
+}
